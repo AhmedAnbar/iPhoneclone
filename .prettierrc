@@ -1,0 +1,21 @@
+{
+	"semi": false,
+	"useTabs": true,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"printWidth": 100,
+	"overrides": [
+		{
+			"files": ["*.js", "*.jsx"],
+			"options": {
+				"parser": "babel"
+			}
+		},
+		{
+			"files": ["*.ts", "*.tsx"],
+			"options": {
+				"parser": "typescript"
+			}
+		}
+	]
+}

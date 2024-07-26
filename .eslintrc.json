@@ -1,0 +1,21 @@
+{
+	"extends": [
+		"standard",
+		"plugin:react/recommended",
+		"plugin:tailweindcss/recommended",
+		"prettier"
+	],
+	"rules": {
+		"max-len": [2, 250],
+		"no-multiple-empty-lines": [
+			"error",
+			{
+				"max": 1,
+				"maxEOF": 1
+			}
+		],
+		"object-curly-newline": 0
+	},
+	"settings": { "react": { "version": "detect" } },
+	"plugins": ["react-refresh", "@react-three"]
+}
