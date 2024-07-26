@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://AhmedAnbar.github.io/iPhoneclone",
+	"homepage": "https://ahmedanbar.github.io/iPhoneclone",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
@@ -12,7 +12,7 @@
 		"format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
 		"check-format": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -f -d dist"
 	},
 	"dependencies": {
 		"@gsap/react": "^2.1.1",
